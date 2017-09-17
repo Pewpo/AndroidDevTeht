@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_superman_vs_batman"
+        android:showAsAction="always"
+        android:icon="@drawable/batman"
+        android:title="@string/superman_vs_batman"/>
+    <item
+        android:id="@+id/action_joker_vs_batman"
+        android:showAsAction="always"
+        android:icon="@drawable/joker"
+        android:title="@string/joker_vs_batman"/>
+    <item
+        android:id="@+id/action_joker_vs_superman"
+        android:showAsAction="always"
+        android:icon="@drawable/superman"
+        android:title="@string/joker_vs_batman"/>
+</menu>
