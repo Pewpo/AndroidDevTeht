@@ -33,15 +33,7 @@ public class vko3 extends AppCompatActivity {
         inflater.inflate(R.menu.menu_main, menu);
         return true;
     }
-  /*  public void changeArenaBackground()
-    {
-        LayoutInflater inflater = getLayoutInflater();
-        // inflate layout from XML (toast.xml)
-        View layout = inflater.inflate(R.layout.toast, (ViewGroup) findViewById(R.id.toast));
-        ImageView image = (ImageView) layout.findViewById(R.id.toast);
-        image.setImageResource(R.drawable.arena);
 
-    }*/
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         String winner = "";
