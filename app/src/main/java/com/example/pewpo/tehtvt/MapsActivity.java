@@ -1,14 +1,8 @@
 package com.example.pewpo.tehtvt;
-import android.content.Context;
 import android.os.AsyncTask;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -16,7 +10,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -92,7 +85,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     .title(course.getCourse().toUpperCase())
                     .snippet(course.getAddress()+"\n"+course.getPhone()+"\n"+course.getEmail()+"\n"+course.getWeb())
                     .icon(color));
-           
+
         }
     }
     public void AddData() {
